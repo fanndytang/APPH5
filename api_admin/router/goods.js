@@ -15,6 +15,7 @@ let write = (data) => {
         result += `file: "${item.file}",`
         result += `detail: "${item.detail}"`
 
+
         result += '\n},'
     })
 
